@@ -116,11 +116,9 @@ ax2.set_yticks([0, 1])
 ax2.set_yticklabels(['No Artifact', 'Artifact'])
 ax2.set_ylim(-0.5, 1.5)
 
-# Title and labels
+
 plt.title("Awake vs Asleep States and Artifact Detection Over Time")
 plt.xlabel("Time (seconds)")
-
-# Add legends
 plt.legend(loc='upper left')
 plt.tight_layout()
 plt.show()
